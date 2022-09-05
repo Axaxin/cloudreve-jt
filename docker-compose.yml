@@ -16,7 +16,7 @@ services:
     depends_on:
       - aria2
   
-aria2:
+  aria2:
     container_name: aria2
     image: ddsderek/aria2-pro
     restart: unless-stopped
